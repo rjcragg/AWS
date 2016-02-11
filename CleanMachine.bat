@@ -63,7 +63,7 @@ goto :eof
 	::Notepad++ is great for text editing
 	::Google Earth is useful
 	::Install Python and Eclipse
-		choco install aria2 notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat devbox-unzip git python eclipse -y
+		choco install aria2 notepadplusplus google-chrome-x64 firefox adobereader ultravnc googleearth windirstat devbox-unzip git python eclipse nodejs.install sourcetree atom -y
 	::Create a scheduled task to start VNCServer. If it is a service, you have to log in, and that kicks out the student
 		"C:\Program Files\uvnc bvba\UltraVNC\setpasswd.exe" safevnc safevnc2 
 		schtasks /Create /F /TN UltraVNCServer /SC ONLOGON /TR "C:\Program Files\uvnc bvba\UltraVNC\winvnc.exe"
