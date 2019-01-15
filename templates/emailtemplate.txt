@@ -1,0 +1,40 @@
+Hello $(FullName),
+
+The attached RDP files can be used to connect to your FME Virtual Machine.
+
+Please wait 10 minutes after receiving this email before trying to connect the the virtual machine; they take approximately 10 minutes to boot.
+
+Please try @Value(PublicIpAddress).rdp first. 
+Double-click on @Value(PublicIpAddress).rdp to open it in Microsoft Remote Desktop.
+
+The username is administrator
+The password is FMElearnings#1
+
+Some organizations block the port used by RDP; port 3389.
+
+If @Value(PublicIpAddress).rdp does not work, please try the other two RDP files; @Value(PublicIpAddress)Port8080.rdp and @Value(PublicIpAddress)Port443.rdp.
+These RDP files use different ports that might not be blocked.
+
+If none of the RDP files will connect, then your Security Administrator is likely using a Web Security Gateway. 
+This cannot be bypassed without contacting your IT Department. 
+Please contact your IT Department, and tell them you need to use Remote Desktop to connect to @Value(PublicIpAddress) 
+
+As a last-resort, you can try to use an HTML5 Remote Desktop Client.
+Go to http://54.205.104.160/myrtille
+Server: @Value(PublicIpAddress)
+User: administrator
+Password: FMElearnings#1 
+
+Virtual Machine Disclaimer:
+This copy of Safe Software’s proprietary FME software, extensions, and related materials ("FME Training Materials") is provided solely for training purposes. The content of the FME Training Materials is intended only to demonstrate features available in FME. User may not copy the FME Training Materials or sell, rent, lease, sub-license, lend, timeshare or transfer, in whole or in part, or provide unlicensed Third Parties access to the prior or present versions of the FME Training Materials. User shall not reverse engineer, decompile, disassemble, alter, modify, or create any derivative works of the FME Training Materials. User shall not remove or obscure any Safe copyright or trademark notices. On completion of training, User shall delete or return to Safe the FME Training Materials and any whole or partial copies, codes, modifications, and merged portions in any form. .
+THE FME TRAINING MATERIALS ARE PROVIDED “AS IS” AND WITH ALL DEFECTS AND ERRORS.  SAFE MAKES NO WARRANTIES, EXPRESS OR IMPLIED, AS TO NONINFRINGEMENT OF THIRD PARTY RIGHTS, MERCHANTABILITY, OR FITNESS FOR ANY PARTICULAR PURPOSE.  WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, SAFE ASSUMES NO LIABILITY FOR ANY SYSTEM ON WHICH THE FME TRAINING MATERIALS ARE INSTALLED OR FOR ANY DATA TRANSLATED BY FME.
+
+Regards,
+Ryan Cragg
+--
+Training at Safe Software
+
+Safe Software Inc.
+Suite 2017, 7445 - 132nd Street, Surrey, BC Canada V3W 1J8
+T 604.501.9985
+train@safe.com | www.safe.com
