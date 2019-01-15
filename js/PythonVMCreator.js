@@ -1,11 +1,5 @@
 function populateForm( json ) {
-	// Print json to the log; might need it for troubleshooting later if element numbers change
-	console.log(json);
-	// Update response json to contain desired default values
-	json[0].defaultValue = region_name;
-	json[1].defaultValue = EC2Type;
-	json[2].defaultValue = EC2Size;
-	json[3].defaultValue = CourseType;
+
 	
 	// Use the API to build the form items
 	FMEServer.generateFormItems( "example-form", json );
