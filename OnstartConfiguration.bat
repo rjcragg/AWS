@@ -37,8 +37,8 @@ goto :eof
 
 :main
 :: fix esri license issue
-	del c:\ProgramData\FLEXnet\*.* /Q /F /A:H
-	del c:\ProgramData\FLEXnet\*.* /Q /F
+::	del c:\ProgramData\FLEXnet\*.* /Q /F /A:H
+::	del c:\ProgramData\FLEXnet\*.* /Q /F
 
 :: get any extra Chocolatey apps
 ::	choco install postman -y
