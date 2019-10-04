@@ -1,8 +1,8 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        /Library/FME/2019.1/fme /Users/rcragg/Documents/GitHub/virtualmachines/workspaces/CreateVPC.fmw
-#              --aws_connection "FME Virtual Machines IAM Amazon Web Services"
+#        C:\apps\FME\19630\fme.exe C:\Users\Frank.Zander\Documents\GitHub\virtualmachines\workspaces\CreateVPC.fmw
+#              --aws_connection "frank.zander Amazon Web Services"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -16,9 +16,9 @@
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_BUILD_NUM="19617"
-#!   FME_DOCUMENT_GUID="6ebd343c-e186-4a14-b620-84a8e8371e7e"
-#!   FME_DOCUMENT_PRIORGUID="4697031d-dedd-4723-a2d3-50406b714609,60458a80-2aad-4eeb-9257-5192adfb8cb6,e54b6f8d-03ca-48a4-8f58-0ad54e69ba4e,66aa0403-d44a-405a-9a7e-2fd1b8757abb,9d6df054-03d1-4aaf-a191-37dcbdaec95c,59fb33ef-89c5-4096-8848-0376e39f037c,20f49af7-35ec-4527-9b0d-9b7757406154,2593cbda-f287-421c-b571-73dda84221bd,45b79a55-cb2c-4fc9-b641-46ffd596955a"
+#!   FME_BUILD_NUM="19630"
+#!   FME_DOCUMENT_GUID="cca4b87e-9ec0-4209-857c-e42548367bd9"
+#!   FME_DOCUMENT_PRIORGUID="4697031d-dedd-4723-a2d3-50406b714609,60458a80-2aad-4eeb-9257-5192adfb8cb6,e54b6f8d-03ca-48a4-8f58-0ad54e69ba4e,66aa0403-d44a-405a-9a7e-2fd1b8757abb,9d6df054-03d1-4aaf-a191-37dcbdaec95c,59fb33ef-89c5-4096-8848-0376e39f037c,20f49af7-35ec-4527-9b0d-9b7757406154,2593cbda-f287-421c-b571-73dda84221bd,45b79a55-cb2c-4fc9-b641-46ffd596955a,6ebd343c-e186-4a14-b620-84a8e8371e7e"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -26,8 +26,8 @@
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_BUILD="FME(R) 2019.1.1.0 (20190801 - Build 19617 - macosx)"
-#!   LAST_SAVE_DATE="2019-09-20T13:01:28"
+#!   LAST_SAVE_BUILD="FME(R) 2019.1.2.0 (20190829 - Build 19630 - WIN64)"
+#!   LAST_SAVE_DATE="2019-10-04T15:15:15"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -46,7 +46,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-2874.03 -72.0007"
+#!   VIEW_POSITION="10700.1 225.002"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="100"
@@ -71,7 +71,7 @@
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI OPTIONAL NAMED_CONNECTION aws_connection &quot;Amazon Web Services&quot; AWS Web Connection:"
-#!   DEFAULT_VALUE="FME Virtual Machines IAM Amazon Web Services"
+#!   DEFAULT_VALUE="frank.zander Amazon Web Services"
 #!   IS_STAND_ALONE="true"
 #! />
 #! </GLOBAL_PARAMETERS>
@@ -79,10 +79,10 @@
 #! <COMMENT
 #!   IDENTIFIER="55"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Create VPC&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="876.51310645611511 -788.50887232596699"
-#!   TOP_LEFT="876.51310645611511 -788.50887232596699"
-#!   BOTTOM_RIGHT="1781.0175501755029 -787.50887232596699"
-#!   BOUNDING_RECT="876.51310645611511 -788.50887232596699 904.50444371938772 -1"
+#!   POSITION="856.51290645411495 -546.5081123183669"
+#!   TOP_LEFT="856.51290645411495 -546.5081123183669"
+#!   BOTTOM_RIGHT="1761.0173501735026 -545.5081123183669"
+#!   BOUNDING_RECT="856.51290645411495 -546.5081123183669 904.50444371938772 -1"
 #!   ORDER="500000000000217"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -94,15 +94,15 @@
 #! <COMMENT
 #!   IDENTIFIER="59"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Tag VPC&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="2739.5278045313735 -1076.5099068107995"
-#!   TOP_LEFT="2739.5278045313735 -1076.5099068107995"
-#!   BOTTOM_RIGHT="3644.0322482507613 -1075.5099068107995"
-#!   BOUNDING_RECT="2739.5278045313735 -1076.5099068107995 904.50444371938772 -1"
+#!   POSITION="2457.0249795031241 -720.50690678079934"
+#!   TOP_LEFT="2457.0249795031241 -720.50690678079934"
+#!   BOTTOM_RIGHT="3361.5294232225119 -719.50690678079934"
+#!   BOUNDING_RECT="2457.0249795031241 -720.50690678079934 904.50444371938772 -1"
 #!   ORDER="500000000000218"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   COLOUR="0.44313725490196076,0.3843137254901961,0.69019607843137254,0.39215686274509803"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="26"
 #! />
@@ -124,10 +124,10 @@
 #! <COMMENT
 #!   IDENTIFIER="61"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Tag Internet Gateway&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="5701.2756064340574 -1115.0105290542656"
-#!   TOP_LEFT="5701.2756064340574 -1115.0105290542656"
-#!   BOTTOM_RIGHT="6680.2756064340574 -1114.0105290542656"
-#!   BOUNDING_RECT="5701.2756064340574 -1115.0105290542656 979 -1"
+#!   POSITION="5706.2756564345564 -1194.5113240622156"
+#!   TOP_LEFT="5706.2756564345564 -1194.5113240622156"
+#!   BOTTOM_RIGHT="6685.2756564345564 -1193.5113240622156"
+#!   BOUNDING_RECT="5706.2756564345564 -1194.5113240622156 979 -1"
 #!   ORDER="500000000000220"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -139,10 +139,10 @@
 #! <COMMENT
 #!   IDENTIFIER="62"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Attach Internet Gateway to VPC&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="6792.2860165381608 -1055.0105290542656"
-#!   TOP_LEFT="6792.2860165381608 -1055.0105290542656"
-#!   BOTTOM_RIGHT="7696.7904602575481 -1054.0105290542656"
-#!   BOUNDING_RECT="6792.2860165381608 -1055.0105290542656 904.50444371938772 -1"
+#!   POSITION="6839.7864915429118 -1092.5109040580157"
+#!   TOP_LEFT="6839.7864915429118 -1092.5109040580157"
+#!   BOTTOM_RIGHT="7744.2909352622992 -1091.5109040580157"
+#!   BOUNDING_RECT="6839.7864915429118 -1092.5109040580157 904.50444371938772 -1"
 #!   ORDER="500000000000221"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -169,15 +169,15 @@
 #! <COMMENT
 #!   IDENTIFIER="69"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;merge cidr options with Zone options&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="8347.2594738619828 -2275.2898104921887"
-#!   TOP_LEFT="8347.2594738619828 -2275.2898104921887"
-#!   BOTTOM_RIGHT="8777.2594738619828 -2274.2898104921887"
-#!   BOUNDING_RECT="8347.2594738619828 -2275.2898104921887 430 -1"
+#!   POSITION="8059.7565988332335 -2095.2880104741885"
+#!   TOP_LEFT="8059.7565988332335 -2095.2880104741885"
+#!   BOTTOM_RIGHT="8489.7565988332335 -2094.2880104741885"
+#!   BOUNDING_RECT="8059.7565988332335 -2095.2880104741885 430 -1"
 #!   ORDER="500000000000226"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.078431372549019607,0.17254901960784313,0.0039215686274509803,0.39215686274509803"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="54"
 #! />
@@ -244,10 +244,10 @@
 #! <COMMENT
 #!   IDENTIFIER="74"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Create a subnet for each cidr range&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="9091.5584742438114 -2329.2903504975875"
-#!   TOP_LEFT="9091.5584742438114 -2329.2903504975875"
-#!   BOTTOM_RIGHT="9996.0629179631997 -2328.2903504975875"
-#!   BOUNDING_RECT="9091.5584742438114 -2329.2903504975875 904.50444371938772 -1"
+#!   POSITION="9089.058449243561 -2225.2893104871887"
+#!   TOP_LEFT="9089.058449243561 -2225.2893104871887"
+#!   BOTTOM_RIGHT="9993.5628929629493 -2224.2893104871887"
+#!   BOUNDING_RECT="9089.058449243561 -2225.2893104871887 904.50444371938772 -1"
 #!   ORDER="500000000000231"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -289,10 +289,10 @@
 #! <COMMENT
 #!   IDENTIFIER="149"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Get parameters from settings.json&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-639.50041204468494 -509.00626229986688"
-#!   TOP_LEFT="-639.50041204468494 -509.00626229986688"
-#!   BOTTOM_RIGHT="-167.50041204468494 -508.00626229986688"
-#!   BOUNDING_RECT="-639.50041204468494 -509.00626229986688 472 -1"
+#!   POSITION="-1179.5058120986855 -453.75555434722992"
+#!   TOP_LEFT="-1179.5058120986855 -453.75555434722992"
+#!   BOTTOM_RIGHT="-707.50581209868551 -452.75555434722992"
+#!   BOUNDING_RECT="-1179.5058120986855 -453.75555434722992 472 -1"
 #!   ORDER="500000000000258"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -304,10 +304,10 @@
 #! <COMMENT
 #!   IDENTIFIER="150"
 #!   COMMENT_VALUE="&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;&#10;&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;&#10;p, li { white-space: pre-wrap; }&#10;&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Consolas&apos;; font-size:13pt; font-weight:400; font-style:normal;&quot;&gt;&#10;&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;clean out what we don&apos;t need&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;"
-#!   POSITION="-46.779487594060242 -571.50836232086704"
-#!   TOP_LEFT="-46.779487594060242 -571.50836232086704"
-#!   BOTTOM_RIGHT="498.00522005220057 -570.50836232086704"
-#!   BOUNDING_RECT="-46.779487594060242 -571.50836232086704 544.78470764626081 -1"
+#!   POSITION="-86.77988759806027 -481.50746231186679"
+#!   TOP_LEFT="-86.77988759806027 -481.50746231186679"
+#!   BOTTOM_RIGHT="458.00482004820054 -480.50746231186679"
+#!   BOUNDING_RECT="-86.77988759806027 -481.50746231186679 544.78470764626081 -1"
 #!   ORDER="500000000000259"
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
@@ -361,21 +361,21 @@
 #!   BOUNDING_RECT="3921.1901630218181 -861.50779231516697 4299.606297295727 975.00975009750096"
 #!   STICKY="true"
 #!   COLOUR="0.49411764705882355,0.40392156862745099,0.34509803921568627,0.39215686274509803"
-#!   CONTENTS="60 19 30 29 20 61 21 17 62 22 "
+#!   CONTENTS="30 22 20 60 21 61 17 19 29 62 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
 #!   IDENTIFIER="14"
 #!   NAME="Create VPC"
 #!   DESCRIPTION=""
-#!   TOP_LEFT="648.0064800648006 -584.00746231186702"
+#!   TOP_LEFT="628.00628006280044 -331.50493728661684"
 #!   ORDER="500000000000199"
 #!   PALETTE_COLOR=""
-#!   BOTTOM_RIGHT="3641.0206944602714 -1541.017032407568"
-#!   BOUNDING_RECT="648.0064800648006 -584.00746231186702 2993.0142143954708 957.00957009570106"
+#!   BOTTOM_RIGHT="3621.0204944582711 -1288.5145073823178"
+#!   BOUNDING_RECT="628.00628006280044 -331.50493728661684 2993.0142143954708 957.00957009570106"
 #!   STICKY="true"
 #!   COLOUR="0.44313725490196076,0.3843137254901961,0.69019607843137254,0.39215686274509803"
-#!   CONTENTS="26 55 25 18 24 27 "
+#!   CONTENTS="27 25 24 59 18 55 26 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -389,7 +389,7 @@
 #!   BOUNDING_RECT="3883.5436767618176 873.00873008730059 4018.5353440283898 537.00537005370052"
 #!   STICKY="true"
 #!   COLOUR="0.72549019607843135,0.14117647058823529,0.047058823529411764,0.39215686274509803"
-#!   CONTENTS="92 96 98 100 99 "
+#!   CONTENTS="96 92 100 99 98 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -403,7 +403,7 @@
 #!   BOUNDING_RECT="3883.5436767618176 1848.0184801848018 4012.5352840277901 915.00915009150106"
 #!   STICKY="true"
 #!   COLOUR="0.72549019607843135,0.14117647058823529,0.047058823529411764,0.39215686274509803"
-#!   CONTENTS="79 93 90 94 88 "
+#!   CONTENTS="88 90 94 79 93 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -417,7 +417,7 @@
 #!   BOUNDING_RECT="3533.4720334875801 -2181.7885737680904 11346.676768000434 1319.2464365820128"
 #!   STICKY="true"
 #!   COLOUR="0.078431372549019607,0.17254901960784313,0.0039215686274509803,0.39215686274509803"
-#!   CONTENTS="51 68 43 41 36 72 73 54 76 147 143 56 44 32 69 128 142 145 47 63 75 86 39 40 70 146 71 52 45 126 74 42 48 122 53 46 85 144 77 50 127 "
+#!   CONTENTS="45 147 56 85 46 51 47 71 126 68 39 75 74 42 144 145 63 43 40 127 143 36 128 50 70 52 53 48 32 76 54 41 122 86 44 142 72 146 77 73 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -431,7 +431,7 @@
 #!   BOUNDING_RECT="8814.802400376946 -867.77543363668906 4164.0416404164025 960.0096000960009"
 #!   STICKY="true"
 #!   COLOUR="0.50980392156862742,0.50196078431372548,0.38823529411764707,0.39215686274509803"
-#!   CONTENTS="112 116 115 110 119 111 114 118 "
+#!   CONTENTS="119 111 112 114 118 115 110 116 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -445,7 +445,7 @@
 #!   BOUNDING_RECT="3889.9792148844435 253.50308692173797 4003.0997159048638 976.5103169940387"
 #!   STICKY="true"
 #!   COLOUR="0.72549019607843135,0.14117647058823529,0.047058823529411764,0.39215686274509803"
-#!   CONTENTS="129 132 134 130 133 "
+#!   CONTENTS="133 129 132 130 134 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -459,7 +459,7 @@
 #!   BOUNDING_RECT="15890.162839556675 -1352.5131768434994 4089.7467798207399 1861.7833237155896"
 #!   STICKY="true"
 #!   COLOUR="0.78431372549019607,0,0.015686274509803921,0.39215686274509803"
-#!   CONTENTS="131 123 176 113 138 "
+#!   CONTENTS="138 123 131 113 176 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -473,7 +473,7 @@
 #!   BOUNDING_RECT="-2274.5197990035317 -300.50509228816668 2846.5250190557322 878.00237002370045"
 #!   STICKY="true"
 #!   COLOUR="0.50588235294117645,0.25490196078431371,0.17254901960784313,0.39215686274509803"
-#!   CONTENTS="152 150 124 153 125 120 151 149 "
+#!   CONTENTS="152 120 150 125 151 149 153 124 "
 #! >
 #! </BOOKMARK>
 #! </BOOKMARKS>
@@ -497,13 +497,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
@@ -520,8 +524,8 @@
 #!   IDENTIFIER="19"
 #!   TYPE="JSONFlattener"
 #!   VERSION="5"
-#!   POSITION="5038.763399986944 -1192.0112490614656"
-#!   BOUNDING_RECT="5038.763399986944 -1192.0112490614656 431 71"
+#!   POSITION="5013.7631499844447 -1284.5121740707157"
+#!   BOUNDING_RECT="5013.7631499844447 -1284.5121740707157 431 71"
 #!   ORDER="500000000000202"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -535,13 +539,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -553,13 +561,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -585,8 +597,8 @@
 #!   IDENTIFIER="21"
 #!   TYPE="PythonCaller"
 #!   VERSION="4"
-#!   POSITION="5725.2756064340574 -1252.0112490614656"
-#!   BOUNDING_RECT="5725.2756064340574 -1252.0112490614656 904.50444371938772 71"
+#!   POSITION="5730.2756564345564 -1344.5121740707157"
+#!   BOUNDING_RECT="5730.2756564345564 -1344.5121740707157 904.50444371938772 71"
 #!   ORDER="500000000000004"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -600,13 +612,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -624,8 +640,8 @@
 #!   IDENTIFIER="18"
 #!   TYPE="PythonCaller"
 #!   VERSION="4"
-#!   POSITION="900.51310645611511 -925.50959233316712"
-#!   BOUNDING_RECT="900.51310645611511 -925.50959233316712 904.50444371938772 71"
+#!   POSITION="880.51290645411495 -696.50896232686694"
+#!   BOUNDING_RECT="880.51290645411495 -696.50896232686694 904.50444371938772 71"
 #!   ORDER="500000000000004"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -639,13 +655,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="HIDE_ATTRIBUTES" PARM_VALUE=""/>
@@ -661,8 +681,8 @@
 #!   IDENTIFIER="24"
 #!   TYPE="JSONFlattener"
 #!   VERSION="5"
-#!   POSITION="2040.0186601866021 -745.50779231516697"
-#!   BOUNDING_RECT="2040.0186601866021 -745.50779231516697 561.00735007350022 71"
+#!   POSITION="2020.0184601846017 -470.50896232686694"
+#!   BOUNDING_RECT="2020.0184601846017 -470.50896232686694 561.00735007350022 71"
 #!   ORDER="500000000000203"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -676,13 +696,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
@@ -693,13 +717,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.line" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -724,8 +752,8 @@
 #!   IDENTIFIER="26"
 #!   TYPE="PythonCaller"
 #!   VERSION="4"
-#!   POSITION="2625.5264245175736 -1220.5112568242996"
-#!   BOUNDING_RECT="2625.5264245175736 -1220.5112568242996 904.50444371938772 71"
+#!   POSITION="2343.0235994893237 -870.50775678929961"
+#!   BOUNDING_RECT="2343.0235994893237 -870.50775678929961 904.50444371938772 71"
 #!   ORDER="500000000000004"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -739,13 +767,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
@@ -762,8 +794,8 @@
 #!   IDENTIFIER="29"
 #!   TYPE="PythonCaller"
 #!   VERSION="4"
-#!   POSITION="6816.2860165381608 -1192.0112490614656"
-#!   BOUNDING_RECT="6816.2860165381608 -1192.0112490614656 904.50444371938772 71"
+#!   POSITION="6811.2859665376609 -1387.0131990809657"
+#!   BOUNDING_RECT="6811.2859665376609 -1387.0131990809657 904.50444371938772 71"
 #!   ORDER="500000000000004"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -777,13 +809,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -816,13 +852,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -861,13 +901,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
@@ -899,13 +943,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -919,13 +967,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -968,13 +1020,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -989,13 +1045,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1031,13 +1091,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1052,13 +1116,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1094,13 +1162,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1116,13 +1188,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1158,13 +1234,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1177,13 +1257,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1216,13 +1300,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1239,13 +1327,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1258,13 +1350,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="2" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="2" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="2" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="2" />
@@ -1280,13 +1376,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="3" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="3" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="3" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="3" />
@@ -1327,13 +1427,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1374,13 +1478,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1400,13 +1508,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1455,13 +1567,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="Junction"/>
@@ -1486,13 +1602,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1535,13 +1655,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1582,13 +1706,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
@@ -1620,13 +1748,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1638,13 +1770,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1685,13 +1821,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1724,13 +1864,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
@@ -1762,13 +1906,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1780,13 +1928,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1827,13 +1979,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1867,13 +2023,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1906,13 +2066,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1945,13 +2109,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1963,13 +2131,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2011,13 +2183,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2030,12 +2206,12 @@
 #!   IDENTIFIER="120"
 #!   TYPE="FeatureReader"
 #!   VERSION="11"
-#!   POSITION="-597.50041204468494 -712.50746231186702"
-#!   BOUNDING_RECT="-597.50041204468494 -712.50746231186702 431 71"
+#!   POSITION="-705.00148705543506 -775.50874232466708"
+#!   BOUNDING_RECT="-705.00148705543506 -775.50874232466708 431 71"
 #!   ORDER="500000000000246"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
-#!   LAST_PARM_EDIT="18547"
+#!   LAST_PARM_EDIT="19630"
 #! >
 #!     <OUTPUT_FEAT NAME="&lt;SCHEMA&gt;"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
@@ -2056,10 +2232,10 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ami.linux" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ami.windows" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.ec2type" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2071,26 +2247,21 @@
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.docker-compose.yaml" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.workspace" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.server" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fmeserver.vm.token" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.ec2type" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.ec2size" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.volumeSize" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.timezone" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="fme.portForarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.password" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.installApps" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.vm.instanceInitiatedShutdownBehavior" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.vm.fromEmail" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.vm.CCEmail" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.vm.BCCEmail" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="web.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="web.workspace" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="web.server" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="web.token" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.vm.template.email{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.vm.template.rdp{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_geometry{0}" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2108,7 +2279,7 @@
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="4" />
 #!     <XFORM_ATTR ATTR_NAME="_reader_error" IS_USER_CREATED="false" FEAT_INDEX="4" />
-#!     <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="JSONFeature,&quot;git.username,git.repository,git.branch,aws.name_tag,aws.s3_bucket_name,aws.region_name,aws.vpc_cidr,aws.subnet_cidr{},ami.linux,ami.windows,flexnet.ec2type,flexnet.ec2size,flexnet.volumeSize,flexnet.securityGroup,fmeserver.ec2type,fmeserver.ec2size,fmeserver.volumeSize,fmeserver.securityGroup,fmeserver.docker-compose.yaml,fmeserver.vm.repository,fmeserver.vm.workspace,fmeserver.vm.server,fmeserver.vm.token,fme.ec2type,fme.ec2size,fme.volumeSize,fme.securityGroup,fme.timezone,fme.portForarding,fme.password,fme.installApps,fme.vm.instanceInitiatedShutdownBehavior,fme.vm.fromEmail,fme.vm.CCEmail,fme.vm.BCCEmail,web.repository,web.workspace,web.server,web.token,fme.vm.template.email{},fme.vm.template.rdp{},fme_geometry{0}&quot;"/>
+#!     <XFORM_PARM PARM_NAME="ATTRIBUTES" PARM_VALUE="JSONFeature,&quot;git.username,git.repository,git.branch,aws.name_tag,aws.region_name,aws.vpc_cidr,aws.subnet_cidr{},aws.rdp.bucket,ami.linux,ami.windows,flexnet.ec2type,flexnet.ec2size,flexnet.volumeSize,flexnet.securityGroup,fmeserver.ec2type,fmeserver.ec2size,fmeserver.volumeSize,fmeserver.securityGroup,fmeserver.docker-compose.yaml,fme.ec2type,fme.ec2size,fme.volumeSize,fme.securityGroup,fme.timezone,fme.portForwarding,fme.firewall,fme.password,fme.license,fme.installApps,fme.vm.instanceInitiatedShutdownBehavior,fme.vm.Subject,fme.vm.fromEmail,fme.vm.CCEmail,fme.vm.BCCEmail,fme.vm.template.email{},fme.vm.template.rdp{},fme_geometry{0}&quot;"/>
 #!     <XFORM_PARM PARM_NAME="ATTRS_TO_EXPOSE" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="ATTR_ACCUM_MODE" PARM_VALUE="Merge Initiator and Result"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_CONFLICT_RES" PARM_VALUE="Use Result"/>
@@ -2124,7 +2295,7 @@
 #!     <XFORM_PARM PARM_NAME="FEATURETYPES" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="JSON"/>
 #!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="META_MACROS,SourceSCAN_MODE&lt;comma&gt;AUTO&lt;comma&gt;SourceQUERY_TABLE&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;SourceFLATTEN_MODE&lt;comma&gt;ALL_LEVELS&lt;comma&gt;SourceFEATURE_TYPE_KEY&lt;comma&gt;json_featuretype&lt;comma&gt;SourceGEOMETRY_FORMAT&lt;comma&gt;None&lt;comma&gt;SourceGEOMETRY_KEY&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;SourceCOORDINATE_SYSTEM_KEY&lt;comma&gt;&lt;lt&gt;Unused&lt;gt&gt;&lt;comma&gt;SourceSAVE_FRAGMENTS&lt;comma&gt;NO&lt;comma&gt;SourceDECODE_TEXT_STRINGS&lt;comma&gt;Yes&lt;comma&gt;SourceEXPOSE_ATTRS_GROUP&lt;comma&gt;&lt;comma&gt;SourceJSON_EXPOSE_FORMAT_ATTRS&lt;comma&gt;&lt;comma&gt;SourceUSE_BASENAME_AS_DEFAULT_FEATURE_TYPE&lt;comma&gt;No&lt;comma&gt;SourceUSE_SEARCH_ENVELOPE&lt;comma&gt;NO&lt;comma&gt;SourceSEARCH_ENVELOPE_MINX&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MINY&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MAXX&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_MAXY&lt;comma&gt;0&lt;comma&gt;SourceSEARCH_ENVELOPE_COORDINATE_SYSTEM&lt;comma&gt;&lt;comma&gt;SourceCLIP_TO_ENVELOPE&lt;comma&gt;NO,METAFILE,JSON"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="JSON_USE_BASENAME_AS_DEFAULT_FEATURE_TYPE,&quot;OPTIONAL NO_EDIT TEXT&quot;,JSON&lt;space&gt;,JSON_DECODE_TEXT_STRINGS,&quot;OPTIONAL NO_EDIT TEXT&quot;,JSON&lt;space&gt;,JSON_EXPOSE_ATTRS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP JSON_EXPOSE_FORMAT_ATTRS&quot;,JSON&lt;space&gt;Schema&lt;space&gt;Attributes,JSON_SCAN_MODE,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Auto,AUTO,QUERY_TABLE%JSON&lt;space&gt;Query,QUERY&quot;,JSON&lt;space&gt;Schema&lt;space&gt;Scan&lt;space&gt;Mode,JSON_JSON_EXPOSE_FORMAT_ATTRS,&quot;OPTIONAL LITERAL EXPOSED_ATTRS JSON%Source&quot;,JSON&lt;space&gt;Additional&lt;space&gt;Attributes&lt;space&gt;to&lt;space&gt;Expose:,JSON_SAVE_FRAGMENTS,&quot;OPTIONAL LOOKUP_CHOICE Yes,YES%No,NO&quot;,JSON&lt;space&gt;Read&lt;space&gt;Entire&lt;space&gt;Feature&lt;space&gt;as&lt;space&gt;JSON&lt;space&gt;Fragment:,JSON_FEATURE_TYPE_KEY,&quot;OPTIONAL TEXT&quot;,JSON&lt;space&gt;Feature&lt;space&gt;Type&lt;space&gt;Key&lt;space&gt;Name:,JSON_GEOMETRY_FORMAT,&quot;OPTIONAL ACTIVECHOICE GeoJSON%OGC-WKT%None,GEOMETRY_KEY,COORDINATE_SYSTEM_KEY&quot;,JSON&lt;space&gt;Geometry&lt;space&gt;Format:,JSON_FLATTEN_MODE,&quot;OPTIONAL LOOKUP_CHOICE Yes,ALL_LEVELS%No,ONE_LEVEL&quot;,JSON&lt;space&gt;Flatten&lt;space&gt;Nested&lt;space&gt;JSON&lt;space&gt;Values&lt;space&gt;into&lt;space&gt;Attributes:,JSON_USE_SEARCH_ENVELOPE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP SEARCH_ENVELOPE_MINX%SEARCH_ENVELOPE_MINY%SEARCH_ENVELOPE_MAXX%SEARCH_ENVELOPE_MAXY%SEARCH_ENVELOPE_COORDINATE_SYSTEM%CLIP_TO_ENVELOPE%SEARCH_METHOD%SEARCH_METHOD_FILTER%SEARCH_ORDER%SEARCH_FEATURE%DUMMY_SEARCH_ENVELOPE_PARAMETER&quot;,JSON&lt;space&gt;Use&lt;space&gt;Search&lt;space&gt;Envelope"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="JSON_USE_BASENAME_AS_DEFAULT_FEATURE_TYPE,&quot;OPTIONAL NO_EDIT TEXT&quot;,JSON&lt;space&gt;,JSON_FEATURE_TYPE_KEY,&quot;OPTIONAL TEXT&quot;,JSON&lt;space&gt;Feature&lt;space&gt;Type&lt;space&gt;Key&lt;space&gt;Name:,JSON_SAVE_FRAGMENTS,&quot;OPTIONAL LOOKUP_CHOICE Yes,YES%No,NO&quot;,JSON&lt;space&gt;Read&lt;space&gt;Entire&lt;space&gt;Feature&lt;space&gt;as&lt;space&gt;JSON&lt;space&gt;Fragment:,JSON_GEOMETRY_FORMAT,&quot;OPTIONAL ACTIVECHOICE GeoJSON%OGC-WKT%None,GEOMETRY_KEY,COORDINATE_SYSTEM_KEY&quot;,JSON&lt;space&gt;Geometry&lt;space&gt;Format:,JSON_EXPOSE_ATTRS_GROUP,&quot;OPTIONAL DISCLOSUREGROUP JSON_EXPOSE_FORMAT_ATTRS&quot;,JSON&lt;space&gt;Schema&lt;space&gt;Attributes,JSON_DECODE_TEXT_STRINGS,&quot;OPTIONAL NO_EDIT TEXT&quot;,JSON&lt;space&gt;,JSON_FLATTEN_MODE,&quot;OPTIONAL LOOKUP_CHOICE Yes,ALL_LEVELS%No,ONE_LEVEL&quot;,JSON&lt;space&gt;Flatten&lt;space&gt;Nested&lt;space&gt;JSON&lt;space&gt;Values&lt;space&gt;into&lt;space&gt;Attributes:,JSON_SCAN_MODE,&quot;OPTIONAL ACTIVECHOICE_LOOKUP Auto,AUTO,QUERY_TABLE%JSON&lt;space&gt;Query,QUERY&quot;,JSON&lt;space&gt;Schema&lt;space&gt;Scan&lt;space&gt;Mode,JSON_JSON_EXPOSE_FORMAT_ATTRS,&quot;OPTIONAL LITERAL EXPOSED_ATTRS JSON%Source&quot;,JSON&lt;space&gt;Additional&lt;space&gt;Attributes&lt;space&gt;to&lt;space&gt;Expose:,JSON_USE_SEARCH_ENVELOPE,&quot;OPTIONAL ACTIVEDISCLOSUREGROUP SEARCH_ENVELOPE_MINX%SEARCH_ENVELOPE_MINY%SEARCH_ENVELOPE_MAXX%SEARCH_ENVELOPE_MAXY%SEARCH_ENVELOPE_COORDINATE_SYSTEM%CLIP_TO_ENVELOPE%SEARCH_METHOD%SEARCH_METHOD_FILTER%SEARCH_ORDER%SEARCH_FEATURE%DUMMY_SEARCH_ENVELOPE_PARAMETER&quot;,JSON&lt;space&gt;Use&lt;space&gt;Search&lt;space&gt;Envelope"/>
 #!     <XFORM_PARM PARM_NAME="FTTR_SEPARATOR" PARM_VALUE="SPACE"/>
 #!     <XFORM_PARM PARM_NAME="GENERIC_GROUP" PARM_VALUE="FME_DISCLOSURE_OPEN"/>
 #!     <XFORM_PARM PARM_NAME="INTERACT" PARM_VALUE="&lt;Unused&gt;"/>
@@ -2174,13 +2345,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2192,13 +2367,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2231,13 +2410,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ADVANCED_GROUP" PARM_VALUE=""/>
@@ -2269,13 +2452,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2287,13 +2474,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_json_error{}.message" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2334,13 +2525,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2358,8 +2553,8 @@
 #!   IDENTIFIER="124"
 #!   TYPE="AttributeRemover"
 #!   VERSION="1"
-#!   POSITION="-22.779487594060242 -756.50956233286706"
-#!   BOUNDING_RECT="-22.779487594060242 -756.50956233286706 544.78470764626081 71"
+#!   POSITION="-62.77988759806027 -696.50896232686694"
+#!   BOUNDING_RECT="-62.77988759806027 -696.50896232686694 544.78470764626081 71"
 #!   ORDER="500000000000257"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -2373,13 +2568,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="LIST_ATTRS" PARM_VALUE="fme.vm.template.email&lt;opencurly&gt;&lt;closecurly&gt; fme.vm.template.rdp&lt;opencurly&gt;&lt;closecurly&gt;"/>
 #!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="REMOVE_ATTRS" PARM_VALUE="fmeserver.vm.server,ami.windows,fme.volumeSize,fmeserver.ec2type,fme.portForarding,fmeserver.vm.token,fme.vm.template.rdp&lt;opencurly&gt;0&lt;closecurly&gt;,fmeserver.volumeSize,flexnet.volumeSize,web.token,fme.vm.BCCEmail,web.workspace,fmeserver.ec2size,fmeserver.docker-compose.yaml,fmeserver.vm.repository,fme.password,fme.vm.fromEmail,fme.ec2type,fme.vm.CCEmail,fme.timezone,web.repository,fme.installApps,flexnet.ec2type,fme_geometry&lt;opencurly&gt;0&lt;closecurly&gt;,fme.ec2size,fme.vm.instanceInitiatedShutdownBehavior,fmeserver.vm.workspace,fme.vm.template.email&lt;opencurly&gt;0&lt;closecurly&gt;,flexnet.ec2size,web.server,ami.linux"/>
@@ -2405,19 +2604,21 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2426,6 +2627,8 @@
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Subnet.AvailabilityZone" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Subnet.SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="FAILED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
@@ -2435,19 +2638,21 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetTag" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2456,6 +2661,8 @@
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Subnet.AvailabilityZone" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Subnet.SubnetId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_PARM PARM_NAME="BOOL_OP" PARM_VALUE="OR"/>
 #!     <XFORM_PARM PARM_NAME="COMPOSITE_MSG" PARM_VALUE=""/>
@@ -2502,19 +2709,21 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetTag" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_count" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AvailabilityZones" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2523,6 +2732,8 @@
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Subnet.AvailabilityZone" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Subnet.SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="InternetGateway.InternetGatewayId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="RouteTableId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST" PARM_VALUE="_exception"/>
 #!     <XFORM_PARM PARM_NAME="ATTR_LIST_GROUP" PARM_VALUE=""/>
@@ -2547,13 +2758,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2571,13 +2786,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -2616,13 +2835,17 @@
 #!     <XFORM_ATTR ATTR_NAME="git.repository" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.branch" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.name_tag" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="aws.s3_bucket_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.region_name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.vpc_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="aws.subnet_cidr" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="aws.rdp.bucket" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="flexnet.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fmeserver.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="fme.securityGroup" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.portForwarding" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.firewall" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.license" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="fme.vm.Subject" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Vpc.VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_element_index" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -3306,7 +3529,7 @@
 #! </WORKSPACE>
 
 FME_PYTHON_VERSION 36
-DEFAULT_MACRO aws_connection FME Virtual Machines IAM Amazon Web Services
+DEFAULT_MACRO aws_connection frank.zander Amazon Web Services
 GUI OPTIONAL NAMED_CONNECTION aws_connection "Amazon Web Services" AWS Web Connection:
 #! START_HEADER
 #! START_WB_HEADER
@@ -3346,7 +3569,7 @@ FACTORY_DEF * BranchingFactory   FACTORY_NAME "PythonCreator_AWS_Credentials_OUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "$(WB_CURRENT_CONTEXT)_CREATOR_BRANCH_TARGET"   INPUT FEATURE_TYPE *  OUTPUT FEATURE_TYPE *
 # -------------------------------------------------------------------------
 MACRO FeatureReader_OUTPUT_PORTS_ENCODED JSONFeature
-MACRO FeatureReader_DIRECTIVES USE_BASENAME_AS_DEFAULT_FEATURE_TYPE,No,DECODE_TEXT_STRINGS,Yes,SCAN_MODE,AUTO,SAVE_FRAGMENTS,NO,FEATURE_TYPE_KEY,json_featuretype,GEOMETRY_FORMAT,None,FLATTEN_MODE,ALL_LEVELS,USE_SEARCH_ENVELOPE,NO
+MACRO FeatureReader_DIRECTIVES USE_BASENAME_AS_DEFAULT_FEATURE_TYPE,No,FEATURE_TYPE_KEY,json_featuretype,SAVE_FRAGMENTS,NO,GEOMETRY_FORMAT,None,DECODE_TEXT_STRINGS,Yes,FLATTEN_MODE,ALL_LEVELS,SCAN_MODE,AUTO,USE_SEARCH_ENVELOPE,NO
 # Always provide an INTERACTION, otherwise the factory defaults to ENVELOPE_INTERSECTS
 INCLUDE [if { ( {<Unused>} == {<Unused>} ) || ( {($INTERACT_OPTIONS)} == {} ) } {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION NONE};          } else {             puts {MACRO FCTQUERY_INTERACTION_LINE FCTQUERY_INTERACTION "<Unused>"};          }         ]
 # Consolidate the attribute merge options to what the factory expects
@@ -3364,7 +3587,7 @@ FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_VPC    INPUT  FEATURE_TYPE AttributeRemover_OUTPUT    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>ec2<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>ec2.create_vpc<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>CidrBlock=feature.getAttribute<openparen><apos>aws.vpc_cidr<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>PythonCaller_create_VPC:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_create_VPC_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_create_VPC OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_create_VPC_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_create_VPC_OUTPUT_0_69iBcquRLVQ=   OUTPUT FEATURE_TYPE PythonCaller_create_VPC_OUTPUT_1_EprFU1kg14U=
 # -------------------------------------------------------------------------
-FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_vpc    INPUT  FEATURE_TYPE PythonCaller_create_VPC_OUTPUT_0_69iBcquRLVQ=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_vpc)"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_vpc_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_vpc_<REJECTED>
+FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_vpc    INPUT  FEATURE_TYPE PythonCaller_create_VPC_OUTPUT_0_69iBcquRLVQ=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_vpc)"    READ_FROM_FILE NO    FILEPATH_OR_URL "<Unused>"    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_vpc_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_vpc_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME JSONFlattener_vpc_<Rejected> INPUT FEATURE_TYPE JSONFlattener_vpc_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFlattener_vpc<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
@@ -3379,7 +3602,7 @@ FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_describe_availability_zones    INPUT  FEATURE_TYPE Junction_Output_1_/QQSbUuR6ZI=    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.describe_availability_zones<openparen><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_describe_availability_zones:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_describe_availability_zones_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_describe_availability_zones OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_describe_availability_zones_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_describe_availability_zones_OUTPUT_0_HN8EjYaDB1Q=   OUTPUT FEATURE_TYPE PythonCaller_describe_availability_zones_OUTPUT_1_uTBuVB4f3C0=
 # -------------------------------------------------------------------------
-FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_availability_zones    INPUT  FEATURE_TYPE PythonCaller_describe_availability_zones_OUTPUT_0_HN8EjYaDB1Q=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_availability_zones)"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_availability_zones_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_availability_zones_<REJECTED>
+FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_availability_zones    INPUT  FEATURE_TYPE PythonCaller_describe_availability_zones_OUTPUT_0_HN8EjYaDB1Q=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_availability_zones)"    READ_FROM_FILE NO    FILEPATH_OR_URL "<Unused>"    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_availability_zones_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_availability_zones_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME JSONFlattener_availability_zones_<Rejected> INPUT FEATURE_TYPE JSONFlattener_availability_zones_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFlattener_availability_zones<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
@@ -3418,10 +3641,10 @@ FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_subnets    INPUT
 # -------------------------------------------------------------------------
 FACTORY_DEF * TestFactory    FACTORY_NAME Tester_Create_Subnets_success    INPUT  FEATURE_TYPE PythonCaller_create_subnets_OUTPUT    TEST _exception NOT_ATTRIBUTE_HAS_A_VALUE "" ENCODED    BOOLEAN_OPERATOR OR    COMPOSITE_TEST_EXPR "1"    OUTPUT PASSED FEATURE_TYPE Tester_Create_Subnets_success_PASSED    OUTPUT FAILED FEATURE_TYPE Tester_Create_Subnets_success_FAILED
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME Tester_Create_Subnets_success_Failed_Logger    INPUT  FEATURE_TYPE Tester_Create_Subnets_success_FAILED    OUTPUT FEATURE_TYPE Tester_Create_Subnets_success_Failed_LOGGED                  @Log(ENCODED, "Tester_Create_Subnets_success_Failed:<space>Feature is:","20","20","",INFO,LOG_ONLY,Tester_Create_Subnets_success_Failed_c61b6dee_1a80_4dc8_ac41_354319a3eb130)
+FACTORY_DEF * TeeFactory    FACTORY_NAME Tester_Create_Subnets_success_Failed_Logger    INPUT  FEATURE_TYPE Tester_Create_Subnets_success_FAILED    OUTPUT FEATURE_TYPE Tester_Create_Subnets_success_Failed_LOGGED                  @Log(ENCODED, "Tester_Create_Subnets_success_Failed:<space>Feature is:","20","20","",INFO,LOG_ONLY,Tester_Create_Subnets_success_Failed_3e013f51_9a5b_43b8_8a45_58b386c8ee8f7)
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Tester_Create_Subnets_success_Failed LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE Tester_Create_Subnets_success_Failed_LOGGED
 # -------------------------------------------------------------------------
-FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_subnets    INPUT  FEATURE_TYPE Tester_Create_Subnets_success_PASSED    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_subnets)"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_subnets_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_subnets_<REJECTED>
+FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_subnets    INPUT  FEATURE_TYPE Tester_Create_Subnets_success_PASSED    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_subnets)"    READ_FROM_FILE NO    FILEPATH_OR_URL "<Unused>"    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_subnets_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_subnets_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME JSONFlattener_subnets_<Rejected> INPUT FEATURE_TYPE JSONFlattener_subnets_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFlattener_subnets<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
@@ -3438,7 +3661,7 @@ FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_internet_gateway    INPUT  FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_3_9iuEsB7pGBs=    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.create_internet_gateway<openparen><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_create_internet_gateway:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_create_internet_gateway_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_create_internet_gateway OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_create_internet_gateway_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_create_internet_gateway_OUTPUT_0_qUxCSNaQbIA=   OUTPUT FEATURE_TYPE PythonCaller_create_internet_gateway_OUTPUT_1_MK/KGxC3Sqw=
 # -------------------------------------------------------------------------
-FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener    INPUT  FEATURE_TYPE PythonCaller_create_internet_gateway_OUTPUT_0_qUxCSNaQbIA=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener)"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_<REJECTED>
+FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener    INPUT  FEATURE_TYPE PythonCaller_create_internet_gateway_OUTPUT_0_qUxCSNaQbIA=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener)"    READ_FROM_FILE NO    FILEPATH_OR_URL "<Unused>"    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME JSONFlattener_<Rejected> INPUT FEATURE_TYPE JSONFlattener_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFlattener<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
@@ -3454,7 +3677,7 @@ FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_route_2    INPUT  FEATURE_TYPE PythonCaller_attach_to_vpc_OUTPUT_0_CyE7fHW2Otg=    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.describe_route_tables<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>Filters=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>vpc-id<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>Vpc.VpcId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_create_route_2:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_create_route_2_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_create_route_2 OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_create_route_2_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_create_route_2_OUTPUT_0_zZ9dGGSRJx0=   OUTPUT FEATURE_TYPE PythonCaller_create_route_2_OUTPUT_1_725bmk55g78=
 # -------------------------------------------------------------------------
-FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_route_table    INPUT  FEATURE_TYPE PythonCaller_create_route_2_OUTPUT_0_zZ9dGGSRJx0=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_route_table)"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_route_table_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_route_table_<REJECTED>
+FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_route_table    INPUT  FEATURE_TYPE PythonCaller_create_route_2_OUTPUT_0_zZ9dGGSRJx0=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_route_table)"    READ_FROM_FILE NO    FILEPATH_OR_URL "<Unused>"    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_route_table_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_route_table_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME JSONFlattener_route_table_<Rejected> INPUT FEATURE_TYPE JSONFlattener_route_table_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFlattener_route_table<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
@@ -3467,7 +3690,7 @@ FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_FlexNet_security_group    INPUT  FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_2_D10HaIsJmbc=    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.create_security_group<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>Description=<apos>FME<space>License<space>Server<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>GroupName=feature.getAttribute<openparen><apos>flexnet.securityGroup<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>VpcId=feature.getAttribute<openparen><apos>Vpc.VpcId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_create_FlexNet_security_group:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_create_FlexNet_security_group_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_create_FlexNet_security_group OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_create_FlexNet_security_group_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_create_FlexNet_security_group_OUTPUT_0_oU1Ky1uWqSI=   OUTPUT FEATURE_TYPE PythonCaller_create_FlexNet_security_group_OUTPUT_1_/xyuvnLiYjM=
 # -------------------------------------------------------------------------
-FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_flexnet    INPUT  FEATURE_TYPE PythonCaller_create_FlexNet_security_group_OUTPUT_0_oU1Ky1uWqSI=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_flexnet)"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_flexnet_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_flexnet_<REJECTED>
+FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_flexnet    INPUT  FEATURE_TYPE PythonCaller_create_FlexNet_security_group_OUTPUT_0_oU1Ky1uWqSI=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_flexnet)"    READ_FROM_FILE NO    FILEPATH_OR_URL "<Unused>"    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_flexnet_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_flexnet_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME JSONFlattener_flexnet_<Rejected> INPUT FEATURE_TYPE JSONFlattener_flexnet_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFlattener_flexnet<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
@@ -3478,7 +3701,7 @@ FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_fme_security_group    INPUT  FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_1_QLQMU2iHCD0=    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.create_security_group<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>Description=<apos>FME<space>Virtual<space>Machines<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>GroupName=feature.getAttribute<openparen><apos>fme.securityGroup<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>VpcId=feature.getAttribute<openparen><apos>Vpc.VpcId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_create_fme_security_group:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_create_fme_security_group_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_create_fme_security_group OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_create_fme_security_group_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_create_fme_security_group_OUTPUT_0_7Xq7UOnD8Zs=   OUTPUT FEATURE_TYPE PythonCaller_create_fme_security_group_OUTPUT_1_2E9rPeaZlQc=
 # -------------------------------------------------------------------------
-FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_flexnet_2    INPUT  FEATURE_TYPE PythonCaller_create_fme_security_group_OUTPUT_0_7Xq7UOnD8Zs=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_flexnet_2)"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_flexnet_2_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_flexnet_2_<REJECTED>
+FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_flexnet_2    INPUT  FEATURE_TYPE PythonCaller_create_fme_security_group_OUTPUT_0_7Xq7UOnD8Zs=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_flexnet_2)"    READ_FROM_FILE NO    FILEPATH_OR_URL "<Unused>"    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_flexnet_2_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_flexnet_2_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME JSONFlattener_flexnet_2_<Rejected> INPUT FEATURE_TYPE JSONFlattener_flexnet_2_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFlattener_flexnet_2<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
@@ -3489,7 +3712,7 @@ FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_create_fmeserver_security_group    INPUT  FEATURE_TYPE PythonCaller_create_vpc_tags_OUTPUT_0_hQPSsck4qkY=    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.create_security_group<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>Description=<apos>FME<space>Server<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>GroupName=feature.getAttribute<openparen><apos>fmeserver.securityGroup<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>VpcId=feature.getAttribute<openparen><apos>Vpc.VpcId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_create_fmeserver_security_group:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_create_fmeserver_security_group_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_create_fmeserver_security_group OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_create_fmeserver_security_group_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_create_fmeserver_security_group_OUTPUT_0_e6E9yUf3aew=   OUTPUT FEATURE_TYPE PythonCaller_create_fmeserver_security_group_OUTPUT_1_oXoSYy9Hx04=
 # -------------------------------------------------------------------------
-FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_flexnet_3    INPUT  FEATURE_TYPE PythonCaller_create_fmeserver_security_group_OUTPUT_0_e6E9yUf3aew=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_flexnet_3)"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_flexnet_3_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_flexnet_3_<REJECTED>
+FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_flexnet_3    INPUT  FEATURE_TYPE PythonCaller_create_fmeserver_security_group_OUTPUT_0_e6E9yUf3aew=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_flexnet_3)"    READ_FROM_FILE NO    FILEPATH_OR_URL "<Unused>"    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_flexnet_3_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_flexnet_3_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME JSONFlattener_flexnet_3_<Rejected> INPUT FEATURE_TYPE JSONFlattener_flexnet_3_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFlattener_flexnet_3<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
