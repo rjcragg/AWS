@@ -1,8 +1,8 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        /Library/FME/2019.1/fme /Users/rcragg/Documents/GitHub/virtualmachines/workspaces/InitialMachineCreator.fmw
-#              --aws_connection "FME Virtual Machines IAM Amazon Web Services"
+#        C:\apps\FME\19630\fme.exe C:\Users\Frank.Zander\Documents\GitHub\virtualmachines\workspaces\InitialMachineCreator.fmw
+#              --aws_connection "frank.zander Amazon Web Services"
 #    
 #!   ATTR_TYPE_ENCODING="SDF"
 #!   BEGIN_PYTHON=""
@@ -16,9 +16,9 @@
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
-#!   FME_BUILD_NUM="19617"
-#!   FME_DOCUMENT_GUID="8990f5e6-0a70-42bb-873b-1074d80250b3"
-#!   FME_DOCUMENT_PRIORGUID="a79d2ad6-cba9-4a10-ac81-acb4b9703e89,88332b33-350f-440a-85ed-3423022786b2,49383d66-484f-424a-aa01-9f79377f3648,d120b734-e9c3-4fe0-a60b-a23cf475846b,63815b77-0bbc-4e06-ba81-d19af651fadb,d381beb0-e70a-4aef-81de-5fb320e023af,32f8321b-2643-452b-a74e-27223613658e,50eafcb6-6a87-47ff-8b04-02a9d78e358f"
+#!   FME_BUILD_NUM="19630"
+#!   FME_DOCUMENT_GUID="36976f95-565a-47c3-ba4d-852bfa41247a"
+#!   FME_DOCUMENT_PRIORGUID="a79d2ad6-cba9-4a10-ac81-acb4b9703e89,88332b33-350f-440a-85ed-3423022786b2,49383d66-484f-424a-aa01-9f79377f3648,d120b734-e9c3-4fe0-a60b-a23cf475846b,63815b77-0bbc-4e06-ba81-d19af651fadb,d381beb0-e70a-4aef-81de-5fb320e023af,32f8321b-2643-452b-a74e-27223613658e,50eafcb6-6a87-47ff-8b04-02a9d78e358f,8990f5e6-0a70-42bb-873b-1074d80250b3"
 #!   FME_GEOMETRY_HANDLING="Enhanced"
 #!   FME_IMPLICIT_CSMAP_REPROJECTION_MODE="Auto"
 #!   FME_REPROJECTION_ENGINE="FME"
@@ -26,8 +26,8 @@
 #!   FME_STROKE_MAX_DEVIATION="0"
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
-#!   LAST_SAVE_BUILD="FME(R) 2019.1.1.0 (20190801 - Build 19617 - macosx)"
-#!   LAST_SAVE_DATE="2019-09-20T13:26:40"
+#!   LAST_SAVE_BUILD="FME(R) 2019.1.2.0 (20190829 - Build 19630 - WIN64)"
+#!   LAST_SAVE_DATE="2019-10-04T15:23:08"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -46,7 +46,7 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="-2605.74 -235.717"
+#!   VIEW_POSITION="6125.06 642.864"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
 #!   ZOOM_SCALE="70"
@@ -71,7 +71,7 @@
 #! <GLOBAL_PARAMETERS>
 #! <GLOBAL_PARAMETER
 #!   GUI_LINE="GUI OPTIONAL NAMED_CONNECTION aws_connection &quot;Amazon Web Services&quot; AWS Web Connection:"
-#!   DEFAULT_VALUE="FME Virtual Machines IAM Amazon Web Services"
+#!   DEFAULT_VALUE="frank.zander Amazon Web Services"
 #!   IS_STAND_ALONE="true"
 #! />
 #! </GLOBAL_PARAMETERS>
@@ -192,7 +192,7 @@
 #!   FOLLOW_ANCHOR="true"
 #!   INFO_NODE="false"
 #!   CUSTOM_USER_COLOR="false"
-#!   COLOUR="0.28627450980392155,0.29803921568627451,0.0078431372549019607,0.78431372549019607"
+#!   COLOUR="1,1,0.95686274509803926,0.78431372549019607"
 #!   SIZE_POLICY="10"
 #!   ANCHORED_NODE="0"
 #! />
@@ -241,7 +241,7 @@
 #!   BOUNDING_RECT="4223.541321097252 -936.50987043317616 1077.9996999970001 336"
 #!   STICKY="true"
 #!   COLOUR="0.72156862745098038,0.11372549019607843,0.12549019607843137,0.39215686274509803"
-#!   CONTENTS="19 20 24 "
+#!   CONTENTS="20 24 19 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -255,7 +255,7 @@
 #!   BOUNDING_RECT="1623.0162301623016 -799.50915042597671 3699.0369903699038 1081.509659762125"
 #!   STICKY="true"
 #!   COLOUR="0.12941176470588237,0.62745098039215685,0.7686274509803922,0.39215686274509803"
-#!   CONTENTS="16 23 19 25 20 22 17 21 18 24 "
+#!   CONTENTS="17 21 22 20 23 16 24 19 25 18 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -269,7 +269,7 @@
 #!   BOUNDING_RECT="-2005.2334180484659 -823.15283867124401 3488.5339653396532 2251.0207602076021"
 #!   STICKY="true"
 #!   COLOUR="0.71372549019607845,0.44705882352941179,0.63529411764705879,0.39215686274509803"
-#!   CONTENTS="87 89 86 58 88 59 66 13 60 12 61 "
+#!   CONTENTS="86 58 12 59 89 87 13 66 60 61 88 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -283,7 +283,7 @@
 #!   BOUNDING_RECT="5520.0552005520049 -394.00459140760825 10382.347813653918 2020.0194479572356"
 #!   STICKY="true"
 #!   COLOUR="0.78823529411764703,0.62745098039215685,0.28235294117647058,0.39215686274509803"
-#!   CONTENTS="35 64 56 57 32 33 70 37 38 67 62 51 52 45 41 65 42 43 69 46 34 36 68 71 44 49 50 55 72 "
+#!   CONTENTS="43 45 69 62 37 52 38 34 51 50 56 46 33 67 65 49 41 32 72 68 70 57 64 55 36 42 44 35 71 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -297,7 +297,7 @@
 #!   BOUNDING_RECT="8125.8259871889859 -560.00549917944193 4371.5429766764337 1479.0125301253011"
 #!   STICKY="true"
 #!   COLOUR="0.6470588235294118,0.42745098039215684,0.29411764705882354,0.39215686274509803"
-#!   CONTENTS="33 44 50 49 35 34 51 42 36 32 41 43 "
+#!   CONTENTS="34 35 42 32 36 50 44 43 49 33 51 41 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -311,7 +311,7 @@
 #!   BOUNDING_RECT="12643.871220571316 -576.50607918524213 3083.5300436171083 1635.0163501635018"
 #!   STICKY="true"
 #!   COLOUR="0.58823529411764708,0.5607843137254902,0.3411764705882353,0.39215686274509803"
-#!   CONTENTS="46 71 37 38 52 72 "
+#!   CONTENTS="72 52 38 71 46 37 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -325,7 +325,7 @@
 #!   BOUNDING_RECT="5577.2040370527711 -744.46781743088161 2450.0190923213795 1087.508041210936"
 #!   STICKY="true"
 #!   COLOUR="0.21568627450980393,0.18823529411764706,0.31764705882352939,0.39215686274509803"
-#!   CONTENTS="62 68 64 57 65 67 "
+#!   CONTENTS="67 65 64 62 57 68 "
 #! >
 #! </BOOKMARK>
 #! <BOOKMARK
@@ -341,7 +341,7 @@
 #!   BOUNDING_RECT="17292.103908151694 -2011.829429291507 837 205"
 #!   STICKY="true"
 #!   COLOUR="0.78431372549019607,0,0.015686274509803921,0.39215686274509803"
-#!   CONTENTS="75 82 80 77 76 "
+#!   CONTENTS="76 77 80 75 82 "
 #! >
 #!     <BOOKMARK_FEAT NAME="AttributeExposer" SOURCE_NODE="80" SOURCE_PORT_DESC="fi 0 "/>
 #! </BOOKMARK>
@@ -1877,7 +1877,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="PASSED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1902,6 +1901,8 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.installApps" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -1910,13 +1911,11 @@
 #!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GroupName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <OUTPUT_FEAT NAME="FAILED"/>
 #!     <FEAT_COLLAPSED COLLAPSED="1"/>
-#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1941,6 +1940,8 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.installApps" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1949,7 +1950,6 @@
 #!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="1" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="GroupName" IS_USER_CREATED="false" FEAT_INDEX="1" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="1" />
@@ -1992,7 +1992,6 @@
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="UserData" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_ACCESS_KEY_ID" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="AWS_SECRET_ACCESS_KEY" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2017,6 +2016,8 @@
 #!     <XFORM_ATTR ATTR_NAME="fme.installApps" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="git.aws.files{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_response" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="VpcId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Images" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="Description" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="ImageId" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2025,7 +2026,6 @@
 #!     <XFORM_ATTR ATTR_NAME="Subnets" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="State" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SubnetId" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_ATTR ATTR_NAME="GroupId" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="SecurityGroups{}" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="GroupName" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_exception" IS_USER_CREATED="false" FEAT_INDEX="0" />
@@ -2377,7 +2377,7 @@
 #! </WORKSPACE>
 
 FME_PYTHON_VERSION 36
-DEFAULT_MACRO aws_connection FME Virtual Machines IAM Amazon Web Services
+DEFAULT_MACRO aws_connection frank.zander Amazon Web Services
 GUI OPTIONAL NAMED_CONNECTION aws_connection "Amazon Web Services" AWS Web Connection:
 #! START_HEADER
 #! START_WB_HEADER
@@ -2437,7 +2437,7 @@ FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_Describe_decribe_images    INPUT  FEATURE_TYPE AttributeCreator_UserData_OUTPUT    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.describe_images<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>ExecutableUsers=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>all<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>Filters=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>state<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>available<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>platform<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>windows<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>architecture<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>x86_64<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><space><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>image-type<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>machine<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>virtualization-type<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>hvm<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><space><space><space><lf><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>block-device-mapping.volume-type<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>gp2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>description<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>ami.windows<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><lf><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_run_instances:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_Describe_decribe_images_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_Describe_decribe_images OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_Describe_decribe_images_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_Describe_decribe_images_OUTPUT_0_+lkg9JNOCWE=   OUTPUT FEATURE_TYPE PythonCaller_Describe_decribe_images_OUTPUT_1_D+7rPVJLF2M=
 # -------------------------------------------------------------------------
-FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_describe_images    INPUT  FEATURE_TYPE PythonCaller_Describe_decribe_images_OUTPUT_0_+lkg9JNOCWE=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_describe_images)"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_describe_images_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_describe_images_<REJECTED>
+FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_describe_images    INPUT  FEATURE_TYPE PythonCaller_Describe_decribe_images_OUTPUT_0_+lkg9JNOCWE=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_describe_images)"    READ_FROM_FILE NO    FILEPATH_OR_URL "<Unused>"    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_describe_images_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_describe_images_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME JSONFlattener_describe_images_<Rejected> INPUT FEATURE_TYPE JSONFlattener_describe_images_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFlattener_describe_images<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
@@ -2461,7 +2461,7 @@ FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_Describe_vpc    INPUT  FEATURE_TYPE Sampler_SAMPLED    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.describe_vpcs<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>Filters=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>tag:Name<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>aws.name_tag<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><space><space><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_run_instances:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_Describe_vpc_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_Describe_vpc OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_Describe_vpc_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_Describe_vpc_OUTPUT_0_P5PqTWb8TEU=   OUTPUT FEATURE_TYPE PythonCaller_Describe_vpc_OUTPUT_1_z4XpeqRk4XM=
 # -------------------------------------------------------------------------
-FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_vpcs    INPUT  FEATURE_TYPE PythonCaller_Describe_vpc_OUTPUT_0_P5PqTWb8TEU=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_vpcs)"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_vpcs_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_vpcs_<REJECTED>
+FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_vpcs    INPUT  FEATURE_TYPE PythonCaller_Describe_vpc_OUTPUT_0_P5PqTWb8TEU=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_vpcs)"    READ_FROM_FILE NO    FILEPATH_OR_URL "<Unused>"    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_vpcs_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_vpcs_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME JSONFlattener_vpcs_<Rejected> INPUT FEATURE_TYPE JSONFlattener_vpcs_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFlattener_vpcs<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
@@ -2471,7 +2471,7 @@ FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_Describe_subnet    INPUT  FEATURE_TYPE AttributeRenamer_OUTPUT    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.describe_subnets<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>Filters=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>vpc-id<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>VpcId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_run_instances:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_Describe_subnet_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_Describe_subnet OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_Describe_subnet_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_Describe_subnet_OUTPUT_0_rL2mzs7ghSo=   OUTPUT FEATURE_TYPE PythonCaller_Describe_subnet_OUTPUT_1_sTREnuX8u3k=
 # -------------------------------------------------------------------------
-FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_subnet    INPUT  FEATURE_TYPE PythonCaller_Describe_subnet_OUTPUT_0_rL2mzs7ghSo=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_subnet)"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_subnet_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_subnet_<REJECTED>
+FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_subnet    INPUT  FEATURE_TYPE PythonCaller_Describe_subnet_OUTPUT_0_rL2mzs7ghSo=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_subnet)"    READ_FROM_FILE NO    FILEPATH_OR_URL "<Unused>"    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_subnet_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_subnet_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME JSONFlattener_subnet_<Rejected> INPUT FEATURE_TYPE JSONFlattener_subnet_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFlattener_subnet<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
@@ -2495,7 +2495,7 @@ FME_PYTHON_PATH "$(FME_MF_DIR)"
 FACTORY_DEF * PythonFactory    FACTORY_NAME PythonCaller_Describe_security_groups    INPUT  FEATURE_TYPE Sampler_subnet_SAMPLED    SYMBOL_NAME AWSCall    PYTHON_NAMESPACE FMEOBJECTS    SOURCE_CODE import<space>fme<lf>import<space>fmeobjects<lf>import<space>boto3<space><space><space><space>#need<space>this<space>for<space>AWS<space>access<lf>import<space>json<space><space><space><space><space>#AWS<space>stuff<space>creates<space>json<lf><lf><space><lf>def<space>AWSCall<openparen>feature<closeparen>:<lf><space><space><space><space>client<space>=<space>boto3.client<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space><apos>ec2<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>region_name=feature.getAttribute<openparen><apos>aws.region_name<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_access_key_id=feature.getAttribute<openparen><apos>AWS_ACCESS_KEY_ID<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space>aws_secret_access_key=feature.getAttribute<openparen><apos>AWS_SECRET_ACCESS_KEY<apos><closeparen><closeparen><lf><space><space><space><space>try:<lf><space><space><space><space><space><space><space><space>response<space>=<space>client.describe_security_groups<openparen><lf><space><space><space><space><space><space><space><space><space><space><space><space>Filters=<openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>vpc-id<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>VpcId<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><opencurly><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Name<apos>:<space><apos>group-name<apos><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><apos>Values<apos>:<space><openbracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space>feature.getAttribute<openparen><apos>fme.securityGroup<apos><closeparen><comma><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><lf><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><closecurly><comma><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><space><space><space><space><closebracket><comma><lf><space><space><space><space><space><space><space><space><space><space><space><lf><space><space><space><space><space><space><space><space><closeparen><lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_response<quote><comma><space>json.dumps<openparen>response<comma><space>default=str<closeparen><closeparen><space>#https:<solidus><solidus>stackoverflow.com<solidus>questions<solidus>11875770<solidus>how-to-overcome-datetime-datetime-not-json-serializable<lf><space><space><space><space>except<space>Exception<space>as<space>e:<lf><space><space><space><space><space><space><space><space>feature.setAttribute<openparen><quote>_exception<quote><comma><space><apos>error<space>in<space>PythonCaller_Describe_security_groups:<space><apos><space>+<space>repr<openparen>e<closeparen><closeparen><lf><lf>    OUTPUT PYOUTPUT FEATURE_TYPE PythonCaller_Describe_security_groups_OUTPUT
 FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_Describe_security_groups OUTPUT Splitter"   INPUT FEATURE_TYPE PythonCaller_Describe_security_groups_OUTPUT   OUTPUT FEATURE_TYPE PythonCaller_Describe_security_groups_OUTPUT_0_aFai4/5GIro=   OUTPUT FEATURE_TYPE PythonCaller_Describe_security_groups_OUTPUT_1_ST5fwnV5KBI=
 # -------------------------------------------------------------------------
-FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_security    INPUT  FEATURE_TYPE PythonCaller_Describe_security_groups_OUTPUT_0_aFai4/5GIro=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_security)"    READ_FROM_FILE NO    FILEPATH_OR_URL <Unused>    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_security_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_security_<REJECTED>
+FACTORY_DEF * JSONQueryFactory    FACTORY_NAME JSONFlattener_security    INPUT  FEATURE_TYPE PythonCaller_Describe_security_groups_OUTPUT_0_aFai4/5GIro=    MODE FLATTEN    JSON_DOCUMENT "@EvaluateExpression(FDIV,STRING_ENCODED,<at>Value<openparen>_response<closeparen>,JSONFlattener_security)"    READ_FROM_FILE NO    FILEPATH_OR_URL "<Unused>"    EXPLODE_QUERY "json"    RECURSIVE_FLATTEN YES    ERROR_LIST_ATTR "_json_error"    OUTPUT EXPLODED FEATURE_TYPE JSONFlattener_security_OUTPUT    OUTPUT REJECTED FEATURE_TYPE JSONFlattener_security_<REJECTED>
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TeeFactory FACTORY_NAME JSONFlattener_security_<Rejected> INPUT FEATURE_TYPE JSONFlattener_security_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, JSONFlattener_security<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
 # -------------------------------------------------------------------------
@@ -2517,7 +2517,7 @@ FACTORY_DEF * TestFactory    FACTORY_NAME Tester_has_exception    INPUT  FEATURE
 DEFAULT_MACRO _WB_BYPASS_TERMINATION No
 FACTORY_DEF * TestFactory    FACTORY_NAME Terminator_exception    INPUT  FEATURE_TYPE Tester_has_exception_PASSED    TEST "$(_WB_BYPASS_TERMINATION)" == Yes    OUTPUT PASSED FEATURE_TYPE __WB_BYPASS_TERMINATOR__       @SupplyAttributes(_wb_termination_feature_type,@FeatureType())       @SupplyAttributes(ENCODED,_wb_termination_message,"@EvaluateExpression(FDIV,STRING_ENCODED,Translation<space>Terminated.<space><at>Value<openparen>_exception<closeparen>,Terminator_exception)")       @SupplyAttributes(_wb_termination_xformer,"Terminator_exception")       @SupplyAttributes(_wb_termination_feature,Yes)    OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED,"@EvaluateExpression(FDIV,STRING_ENCODED,Translation<space>Terminated.<space><at>Value<openparen>_exception<closeparen>,Terminator_exception)")
 # -------------------------------------------------------------------------
-FACTORY_DEF * TeeFactory    FACTORY_NAME PythonCaller_run_instances_Output_Logger    INPUT  FEATURE_TYPE PythonCaller_run_instances_OUTPUT_0_yFPhZzzjS6s=    OUTPUT FEATURE_TYPE PythonCaller_run_instances_Output_LOGGED                  @Log(ENCODED, "PythonCaller_run_instances_Output:<space>Feature<space>is:","20","20","",WARN,LOG_ONLY,PythonCaller_run_instances_Output_9b5eea71_da2d_421f_ad8c_ac6eaf5494c50)
+FACTORY_DEF * TeeFactory    FACTORY_NAME PythonCaller_run_instances_Output_Logger    INPUT  FEATURE_TYPE PythonCaller_run_instances_OUTPUT_0_yFPhZzzjS6s=    OUTPUT FEATURE_TYPE PythonCaller_run_instances_Output_LOGGED                  @Log(ENCODED, "PythonCaller_run_instances_Output:<space>Feature<space>is:","20","20","",WARN,LOG_ONLY,PythonCaller_run_instances_Output_c33efbb2_8379_41fa_aaa4_ce5ae60240cc1)
 FACTORY_DEF * TeeFactory   FACTORY_NAME "PythonCaller_run_instances_Output LOGGED Transformer Output Nuker"   INPUT FEATURE_TYPE PythonCaller_run_instances_Output_LOGGED
 # -------------------------------------------------------------------------
 
